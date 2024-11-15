@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "VitePress Zinc Theme",
-  description: "A simple and clean VitePress Zinc theme, inspired by Shadcn",
+  title: "Ray's Notes",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,16 +13,22 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'frontend',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'side effect', link: '/posts/frontend/side-effect' },
+          { text: 'reactive', link: '/posts/frontend/reactive' }
+        ]
+      },
+      {
+        text: 'backend',
+        items: [
+          { text: 'log', link: '/posts/backend/log' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Ray-D-Song/vitepress-zinc-theme' }
+      { icon: 'github', link: 'https://github.com/Ray-D-Song/note' }
     ]
   },
   markdown: {

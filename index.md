@@ -8,11 +8,11 @@ hero:
   tagline: "A simple and clean VitePress Zinc theme, inspired by Shadcn"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 目录
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: Feature A
