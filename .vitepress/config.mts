@@ -13,9 +13,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'frontend',
+        text: '前端',
         items: [
-          { text: 'side effect', link: '/posts/frontend/side-effect' },
+          { text: '副作用', link: '/posts/frontend/side-effect' },
+          { text: '错误和异常', link: '/posts/frontend/error-and-exception' },
           { text: 'reactive', link: '/posts/frontend/reactive' }
         ]
       },
